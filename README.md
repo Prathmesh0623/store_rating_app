@@ -104,7 +104,7 @@ The frontend will run on http://localhost:3001.
 Open your browser and go to http://localhost:3001/login.
 Register a new user:
 Name: Must be 20-60 characters.
-Email: Valid email format (e.g., john@example.com).
+Email: Valid email format (e.g., xyz@example.com).
 Address: Max 400 characters.
 Password: 8-16 characters, with at least one uppercase letter and one special character (e.g., Password!123).
 
@@ -145,8 +145,8 @@ API Endpoints
 Authentication
 
 POST /auth/register: Register a new user.{
-  "name": "John Doe Smith Normal User Long",
-  "email": "john@example.com",
+  "name": "a b c Normal User ",
+  "email": "xyz@example.com",
   "address": "123 Main St, City, Country",
   "password": "Password!123",
   "role": "USER"
@@ -154,7 +154,7 @@ POST /auth/register: Register a new user.{
 
 
 POST /auth/login: Log in and get a JWT token.{
-  "email": "john@example.com",
+  "email": "xyz@example.com",
   "password": "Password!123"
 }
 
